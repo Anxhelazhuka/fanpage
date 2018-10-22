@@ -8,6 +8,7 @@ body {
 }
 a {
     text-decoration: none;
+
 }
 
 .main {
@@ -16,4 +17,22 @@ a {
 .social-image{
     width: 30px;
     margin: 15px;
+}
+.header{
+ display:flex;
+justify-content:center; 
+}
+.navbar{
+    display:flex;
+    justify-content:space-around;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+.gallery{
+ display:flex;   
+ justify-content:space-around;
+ width: 100%;
 }
