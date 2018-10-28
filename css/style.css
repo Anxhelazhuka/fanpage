@@ -10,29 +10,72 @@ a {
     text-decoration: none;
 
 }
-
+.bebe{
+    width: 100%;
+    width: 300px;
+    height:320px;
+    border: 5px solid purple;
+    padding: 25px;
+    display:flex;
+    justify-content:center;
+}
 .main {
     height: 100%;
+    width:100%;
+     background-image:linear-gradient(violet, yellow, pink); 
 }
+.aboutMain{
+    display:flex;
+    justify-content:center;
+    padding: 25px;
+    margin: 15px;
+}
+.leftPane{
+    width: 50%;
+     font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
+.rightPane{
+    width: 50%;
+    background-image:linear-gradient(violet, yellow, pink);
+}
+
 .social-image{
     width: 30px;
     margin: 15px;
 }
 .header{
  display:flex;
-justify-content:center; 
+justify-content:center;
+background-color:#c8b0b3;
+font-family: 'Berkshire Swash', cursive;
+font-size: 45px;
+
 }
 .navbar{
     display:flex;
     justify-content:space-around;
+    background-color:#e3d9c5;
+    font-family: 'Bree Serif', serif;
+    font-size: 25px;
 }
 .footer{
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
+    background-color:#e3d9c5; 
+}
+.social{
+    width: 70%;
+}
+p{
+    width: 30%;
 }
 .gallery{
  display:flex;   
- justify-content:space-around;
+ flex-wrap:wrap;
+ width:400px;
+ height:420px;
  width: 100%;
+ border: solid purple;
 }
