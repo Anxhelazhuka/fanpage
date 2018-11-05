@@ -11,16 +11,8 @@ a {
 
 }
 .main {
-width:100%;
+height: 300%;
 background-image: url("https://media1.popsugar-assets.com/files/thumbor/nqg9c1zzKF7Bg-VWP6M8G1gl6zI/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/04/24/382/n/38922769/7bdcdacbd15f4254_BEBE_REXHA_06_210.jpg")
-}
-.image{
-    display:flex;
-    justify-content:center;
-    width:100%;
-    background-image:linear-gradient(violet, yellow, pink); 
-    border: 5px solid purple;
-    padding: 20px;
 }
 .aboutMain{
     display:flex;
